@@ -1,0 +1,56 @@
+Column_name,Description,Label,Table,Derived
+Flower_density,Mean number of flowers (Num_flowers column) per cubic meter (Volume_m3 column) on a plant in a given week.,Flower density (num. per m^3),flower_counts,TRUE
+Num_flowers,Mean number of flowers on a plant in a given week.,Num. flowers,flower_counts,FALSE
+Fraction_closed_stigmas,Proportion of flowers on a plant that had closed stigmas in a given week (Num_closed_stigmas / Num_closed_stigmas + Num_open_stigmas).,Fraction closed stigma flowers,flower_counts,FALSE
+Num_closed_stigmas,Mean number of flowers with closed stigmas counted on a plant in a given week.,Num. closed stigma flowers,flower_counts,FALSE
+Num_open_stigmas,Mean number of flowers with open stigmas counted on a plant in a given week.,Num. open stigma flowers,flower_counts,FALSE
+Treatment,Experimental treatment applied to the flower.,Treatment,flowers,TRUE
+Bagged,Is TRUE if a flower was enclosed in amesh bag and FALSE if not.,Bagged flower,flowers,FALSE
+Caged,Is TRUE if a flower was enclosed in a cage and FALSE if not.,Caged flower,flowers,FALSE
+Stigma,Is CLOSED if the flowers stigma was closed and OPEN if the stigma was open.,Stigma status,flowers,FALSE
+Age_category,Age category of the flower (1 to 4).,Flower age category,flowers,FALSE
+Age_days,Number of days that the flower was open before harvest.,Flower age (days),flowers,FALSE
+Nectar_pH,Flower nectar pH.,Nectar pH,flowers,FALSE
+Nectar_pH_less5,Is TRUE if the nectar pH was less than 5.,Nectar pH  less than 5,flowers,TRUE
+Nectar_uL,Volumn of the nectar in uL.,Nectar volume (uL),flowers,FALSE
+EtOH_Percent,Nectar ethanol percentage.,Ethanol percent,flowers,FALSE
+Fructose_mg_per_mL,Nectar fructose concentration (mg per mL).,Fructose concentation (mg / mL),flowers,FALSE
+Glucose_mg_per_mL,Nectar glucose concentration (mg per mL).,Glucose concentation (mg / mL),flowers,FALSE
+Sucrose_mg_per_mL,Nectar sucrose concentration (mg per mL).,Sucrose concentration (mg / mL),flowers,FALSE
+Bacterial_CFU_per_uL,Number of bacterial colony forming units (CFU) per uL of nectar.,Bacterial density (CFU / uL),flowers,FALSE
+Bacterial_morphotypes,Number of bacterial colony morphotypes observed on solid media plates.,Bacterial morphotypes,flowers,FALSE
+Num_BOTU,Number of bacterial operational taxonomic units (OTU) based on sequencing data.,Num. bacterial OTUS,flowers,FALSE
+Fungal_CFU_per_uL,Number of yeast colony forming units (CFU) per uL of nectar.,Fungal density (CFU / uL),flowers,FALSE
+Fungal_morphotypes,Number of yeast colony morphotypes observed on solid media plates.,Fungal morphotypes,flowers,FALSE
+Num_FOTU,Number of yeast operational taxonomic units (OTU) based on sequencing data.,Num. fungal OTUs,flowers,FALSE
+Volume_m3,Plant volume in cubic meters (usually calculated as height x width x depth).,Plant volume (m^3),plant_measurements,FALSE
+Height_m,Height of the plant in meters.,Plant height (m),plant_measurements,FALSE
+Jan_PAR_mol_m2_day,Mean photosynthetically active radiation received by the plant in January (moles per square meters per day).,January PAR (mol / m^2 day),plant_measurements,FALSE
+Feb_PAR_mol_m2_day,Mean photosynthetically active radiation received by the plant in February (moles per square meters per day).,February PAR (mol / m^2 day),plant_measurements,FALSE
+Mar_PAR_mol_m2_day,Mean photosynthetically active radiation received by the plant in March (moles per square meters per day).,March PAR (mol / m^2 day),plant_measurements,FALSE
+Apr_PAR_mol_m2_day,Mean photosynthetically active radiation received by the plant in April (moles per square meters per day).,April PAR (mol / m^2 day),plant_measurements,FALSE
+May_PAR_mol_m2_day,Mean photosynthetically active radiation received by the plant in May (moles per square meters per day).,May PAR (mol / m^2 day),plant_measurements,FALSE
+Jun_PAR_mol_m2_day,Mean photosynthetically active radiation received by the plant in June (moles per square meters per day).,June PAR (mol / m^2 day),plant_measurements,FALSE
+Jul_PAR_mol_m2_day,Mean photosynthetically active radiation received by the plant in July (moles per square meters per day).,July PAR (mol / m^2 day),plant_measurements,FALSE
+Aug_PAR_mol_m2_day,Mean photosynthetically active radiation received by the plant in August (moles per square meters per day).,August PAR (mol / m^2 day),plant_measurements,FALSE
+Sep_PAR_mol_m2_day,Mean photosynthetically active radiation received by the plant in September (moles per square meters per day).,September PAR (mol / m^2 day),plant_measurements,FALSE
+Oct_PAR_mol_m2_day,Mean photosynthetically active radiation received by the plant in October (moles per square meters per day).,October PAR (mol / m^2 day),plant_measurements,FALSE
+Nov_PAR_mol_m2_day,Mean photosynthetically active radiation received by the plant in November (moles per square meters per day).,November PAR (mol / m^2 day),plant_measurements,FALSE
+Dec_PAR_mol_m2_day,Mean photosynthetically active radiation received by the plant in December (moles per square meters per day).,December PAR (mol / m^2 day),plant_measurements,FALSE
+deltaC13,Ratio of C13 to C12 in plant leaf tissue (parts per thousand).,Delta C13 (per mil),plant_measurements,FALSE
+Foliar_N_percent,Plant leaf nitrogen percentage.,Foliar N percent,plant_measurements,FALSE
+Foliar_C_percent,Plant leaf carbon percentage.,Foliar C percent,plant_measurements,FALSE
+Watered,Is YES if a plant was watered and NO if not.,Watering status,plant_measurements,FALSE
+BOTU_Richness,Total number of bacterial operational taxonomic units (OTU) on a plant based on sequencing data.,Total bacterial OTUs on plant,plant_measurements,FALSE
+FOTU_Richness,Total number of yeast operational taxonomic units (OTU) on a plant based on sequencing data.,Total fungal OTUs on plant,plant_measurements,FALSE
+Week_flowers_present,First week that students observed flowers on a plant.,Week flowers first observed,plant_measurements,FALSE
+Date_flowers_present,Date of the first day of the week that students first observed flowers on a plant.,Date flowers first observed,plant_measurements,FALSE
+UTM_N,North UTM coordinate of the plant (zone 10).,UTM N coordinate,plants,FALSE
+UTM_E,East UTM coordinate of the plant (zone 10).,UTM E coordinate,plants,FALSE
+Num_years,Number of years a plant was observed.,Num. years observed,plants,FALSE
+First_year,First year that a plant was observed.,First year plant observed,plants,FALSE
+Last_year,Most recent year that a plant was observed.,Last year plant observed,plants,FALSE
+Temp_daily_max,Average daily maximum temperature over a given time period (Celcius).,Avg. daily maximum temperature,temperature_summary_long,FALSE
+Temp_daily_mean,Average daily mean temperature over a given time period (Celcius).,Avg. daily mean temperature,temperature_summary_long,FALSE
+Temp_daily_min,Average daily minimum temperature over a given time period (Celcius).,Avg. daily minimum temperature,temperature_summary_long,FALSE
+Temp_daily_range,Average daily temperature range over a given time period (Celcius).,Avg. daily temperature range,temperature_summary_long,FALSE
